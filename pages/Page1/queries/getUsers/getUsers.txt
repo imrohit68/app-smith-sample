@@ -1,1 +1,1 @@
-SELECT * FROM office."employee" LIMIT 10;
+SELECT id , name FROM office."employee" LIMIT 10;
