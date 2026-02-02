@@ -1,1 +1,1 @@
-SELECT id,gender,longitude FROM public."users" WHERE gender='female' LIMIT 10;
+SELECT * FROM office."employee" LIMIT 10;
