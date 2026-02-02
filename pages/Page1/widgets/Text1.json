@@ -38,7 +38,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 12,
   "shouldTruncate": false,
-  "text": "All Users Table",
+  "text": "Table with only female users",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,
@@ -46,5 +46,5 @@
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "0cuet52qzk",
-  "widgetName": "Text1"
+  "widgetName": "Heading Text Field"
 }
