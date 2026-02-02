@@ -34,7 +34,6 @@
   "columnOrder": [
     "id",
     "gender",
-    "latitude",
     "longitude"
   ],
   "columnUpdatedAt": 1770032473165,
@@ -65,9 +64,6 @@
     },
     {
       "key": "primaryColumns.gender.computedValue"
-    },
-    {
-      "key": "primaryColumns.latitude.computedValue"
     },
     {
       "key": "primaryColumns.longitude.computedValue"
@@ -166,37 +162,6 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "latitude": {
-      "alias": "latitude",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "columnType": "text",
-      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"latitude\"])) : latitude })()}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "latitude",
-      "index": 2,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "Latitude",
-      "notation": "standard",
-      "originalId": "latitude",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
     "longitude": {
       "alias": "longitude",
       "allowCellWrapping": false,
@@ -209,7 +174,7 @@
       "enableSort": true,
       "horizontalAlignment": "LEFT",
       "id": "longitude",
-      "index": 3,
+      "index": 2,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -218,7 +183,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "Longitude",
+      "label": "longitude",
       "notation": "standard",
       "originalId": "longitude",
       "sticky": "",

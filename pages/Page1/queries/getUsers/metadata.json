@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT id,gender,longitude,latitude FROM public.\"users\" WHERE gender='female' LIMIT 10;",
+      "body": "SELECT id,gender,longitude FROM public.\"users\" WHERE gender='female' LIMIT 10;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

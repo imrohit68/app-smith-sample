@@ -1,1 +1,1 @@
-SELECT id,gender,longitude,latitude FROM public."users" WHERE gender='female' LIMIT 10;
+SELECT id,gender,longitude FROM public."users" WHERE gender='female' LIMIT 10;
