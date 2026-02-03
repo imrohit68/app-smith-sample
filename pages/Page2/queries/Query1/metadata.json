@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "\n                   SELECT TO_CHAR(joined_on, 'Mon') AS month,\n      COUNT(*) AS employees\n                   FROM office.\"employee\"\n                   GROUP BY month\n                   ORDER BY MIN (joined_on);                    ",
+      "body": "SELECT TO_CHAR(created_at, 'Mon') AS month,\n    COUNT(*) AS users\n                      FROM public.users\n                      GROUP BY month\n                      ORDER BY MIN (created_at);",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

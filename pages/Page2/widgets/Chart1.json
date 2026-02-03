@@ -7,7 +7,7 @@
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
     "ol3zeljpiv": {
-      "data": "{{\nQuery1.data.map(item => ({\n  x: item.month,\n  y: Number(item.employees)\n}))\n}}\n",
+      "data": "{{\nQuery1.data.map(item => ({\n  x: item.month,\n  y: Number(item.users)\n}))\n}}\n",
       "seriesName": "2023"
     }
   },
@@ -108,5 +108,5 @@
   "widgetId": "38z0qm2fei",
   "widgetName": "Chart1",
   "xAxisName": "Month",
-  "yAxisName": "Employees"
+  "yAxisName": "Users"
 }
