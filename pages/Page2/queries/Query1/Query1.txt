@@ -1,5 +1,6 @@
-SELECT TO_CHAR(created_at, 'Mon') AS month,
-  COUNT(*) AS users
-                      FROM public.users
-                      GROUP BY month
-                      ORDER BY MIN (created_at);
+
+                   SELECT TO_CHAR(joined_on, 'Mon') AS month,
+      COUNT(*) AS employees
+                   FROM office."employee"
+                   GROUP BY month
+                   ORDER BY MIN (joined_on);                    
