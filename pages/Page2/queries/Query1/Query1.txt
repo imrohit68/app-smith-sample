@@ -1,0 +1,6 @@
+SELECT
+  TO_CHAR(created_at, 'Mon') AS month,
+  COUNT(*) AS users
+FROM public.users
+GROUP BY month
+ORDER BY MIN(created_at);
